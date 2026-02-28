@@ -3,7 +3,7 @@ from transformers import pipeline
 
 # Load the text classification model pipeline
 classifier = pipeline("image-classification", 
-                      model="akashmaggon/vit-base-age-classification")
+                      model="prithivMLmods/Age-Classification-SigLIP2")
 
 # Streamlit application title
 st.title("Text Classification for you")
